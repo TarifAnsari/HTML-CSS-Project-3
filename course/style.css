@@ -1,0 +1,93 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+    
+  
+}
+body{
+  background-image: url(assets/bg.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+body nav{
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  gap: 1200px;
+  align-items: center;
+}
+
+
+body nav ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+  /* list-style: none; */
+  gap: 55px;
+  /* align-items: center; */
+  position:fixed;
+  left: 250px;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.navigation-btn{
+  gap: 60px;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  height: 30px;
+  width: 130px;
+  background-color: rgb(235, 10, 190);
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+}
+
+img{
+  padding: 10px 10px 10px 10px; 
+}
+
+section div h1{
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  margin: 90px;
+  font-weight: 700;
+}
+
+section div p{
+  text-align: center;
+  color: white;
+  align-items: center;
+  position: relative;
+  bottom: 85px;
+  font-size: 17px;
+  /* font-family: "Poppins"; */
+  font-style: normal;
+}
+
+section .hero-button{
+  position: absolute;
+  border-radius: 5px;
+  background-color: rgb(202, 7, 176);
+  color: white;
+  height: 35px;
+  width: 200px;
+  margin: 40px 0px 0px 650px;
+  top: 50%;
+  font-weight: 700;
+  cursor: pointer;
+}
